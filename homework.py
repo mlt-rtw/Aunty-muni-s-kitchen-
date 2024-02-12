@@ -34,3 +34,5 @@ print("\nNumber of guests:", number_of_guests)
 print("\nGuest email addresses (lowercase, alphabetical):")
 for email in sorted(emails, key=str.lower):
     print(email.lower())
+
+# This is good but it smells very chat gpt and the code that you're using to convert everything to lower case seems very convoluted(it has a lot of unnecessary components)
